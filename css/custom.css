@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section#topber { 
+    background-color: #F6F6F6;
+}
+ 
+.phone.d-flex.align-items-center p {
+    color: #232323;
+    font-family: hind siligury;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.envelope.d-flex.align-items-center p {
+    color: #232323;
+    font-family: hind siligury;
+    padding-top: 12px;
+    margin-left: 10px;
+}
+.location.d-flex.align-items-center p {
+    color: #232323;
+    font-family: hind siligury; 
+    margin-left: 10px;
+}
+.location.d-flex.align-items-center p {
+    margin-top: 8px;
+}
+  /* ************topber end**************  */
+a.nav-link {
+    font-weight: 600;
+    font-family: hind siliguri;
+    margin-right: 21px;
+    color: #706969 !important;
+}
+.nab_icon i {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #bdb2b261;
+    margin-left: 15px;
+} 
+/* ************navber end**************  */
+ /* ************Beautiful start**************  */
+section#beautiful {
+    background: url('../images/beautiful.png');
+    background-repeat: no-repeat;
+    height: 750px;
+     background-position: center;
+}
+.main_text h1 {
+    font-weight: 600; 
+    font-size: 50px;
+    font-family: hind siliguri;
+    color: white;
+    margin-top: 203px;
+}
+.main_text p {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: hind siliguri;
+    color: white;
+}
+.main_text button {
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-family: hind siliguri;
+    background-color: white;
+    border: none;
+   color: red;
+}
+
+ /* ************Beautiful end**************  */
+ /* ************delivery start**************  */
+ section#delivery {
+    padding: 40px;
+}
+i.fa-solid.fa-van-shuttle {
+    margin-bottom: 10px;
+    font-size: 31px;
+    color: red;
+    border: 1px solid #0000007a;
+    padding: 7px; 
+     
+}
+i.fa-sharp.fa-solid.fa-money-bill {
+    margin-bottom: 10px;
+    font-size: 31px;
+    color: red;
+    border: 1px solid #0000007a;
+    padding: 7px;
+}
+
+i.fa-solid.fa-phone.phone{
+    margin-bottom: 10px;
+    font-size: 31px;
+    color: red;
+    border: 1px solid #0000007a;
+    padding: 7px;
+}
+/* ************delivery end**************  */
+/* ************Featured start**************  */
+div#expolor {
+      background: url('../images/feature.png');
+    background-repeat: no-repeat;
+    height: 750px;
+     background-position: center;
+}
+div#expolor h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40%;
+    font-family: hind siliguri;
+    font-weight: 700;
+}
+.text-start.\31 st_post p {
+    font-weight: 700;
+    color: #9E3040;
+    font-family: hind siliguri;
+}
+.text-start.\32 nd_post.m-auto p {
+    font-weight: 600;
+    color: #686868;
+    font-family: hind siliguri;
+}
+.text-center button {
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #9E3040;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.card.mx-auto.m-4 {
+    background-color: #F3F5F6;
+}
+.card.mx-auto.m-2 {
+    background-color: #F3F5F6;
+}
+/* ************Featured end**************  */
+/* ************organizik start**************  */
+.organic { 
+    background-color: #F3F5F6;
+    padding: 63px 39px;
+}
+section#organic h2{
+    color: #9E3040;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: hind siliguri;
+}
+
+section#organic p {
+    color: #232323; 
+}
+section#organic button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #232323;
+    color: #F3F5F6;
+    font-weight: 600;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+/* ************organizik end**************  */
+/* ************tranding start**************  */
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #9E3040;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  } 
+/* ************tranding end**************  */
+
+/* ************Product start************** */
+section.Product h1 {
+    color: #4a4747;
+    font-family: hind siliguri;
+    font-weight: 600;
+}
+img.img-fluid.mx-auto.d-block.mains_product {
+    height: 425px;
+}
+/* ************Product end************** */
+/* ************Get end************** */
+section#get h1 {
+    font-weight: 700;
+    font-family: hind siliguri;
+}
+
+section#get p {
+    font-weight: 700;
+    font-family: hind siliguri;
+}
+span#basic-addon2 {
+    background-color: #9E3040 !important;
+    color: white;
+}
+/* ************Get end************** */
+/* ************footer end************** */
+section#footer {
+    padding: 30px 0px;
+    background-color: #F3F5F6;
+}
+.Allen.d-flex p {
+    color: #303030;
+    margin-left: 15px;
+    font-family: hind siliguri;
+}
+.contact.d-flex p {
+    color: #303030;
+    margin-left: 15px;
+    font-family: hind siliguri;
+}
+.email.d-flex p {
+    color: #303030;
+    margin-left: 15px;
+    font-family: hind siliguri;
+}
+/* ************footer end************** */

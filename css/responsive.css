@@ -1,0 +1,185 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    img.mx-auto.d-block {
+        width: 190px;
+    }
+    .main_text h1 { 
+        font-size: 39px;
+        text-align: center;
+    }
+    .main_text p { 
+        font-size: 18px; 
+        text-align: center;
+    }
+    .main_text button { 
+        margin-left: 57px;
+    }
+    .card.mx-auto.m-4.tranding{
+        width: 17rem !important;
+    }
+
+
+    img.img-fluid.mx-auto.d-block.pb-3 {
+        width: 270px;
+    }
+    img.img-fluid.mx-auto.d-block {
+        width: 270px;
+        margin-bottom: 20px;
+    }
+    .Quick h1, p {
+        text-align: center;
+    }
+    .contact h1, p {
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+    }
+    h1.we {
+        text-align: center;
+        margin: 30px 0px;
+    }
+    .frees.mt-2 p {
+        padding: 9px 0px; 
+        text-align: start;
+    }
+    i.fa-regular.fa-envelope.fs-5 {
+        padding-top: 23px;
+    }
+    section#organic h2 {
+        font-size: 14px; 
+    } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) and (max-width: 425px){
+    .main_text h1 {  
+        text-align: center;
+    }
+    .main_text p {  
+        text-align: center;
+    }
+    .main_text button { 
+        margin-left: 57px;
+    }
+    .card.mx-auto.m-4.tranding{
+        width: 17rem !important;
+    }
+
+    img.img-fluid.mx-auto.d-block.pb-3 { 
+        width: 370px;
+    }
+    img.img-fluid.mx-auto.d-block { 
+        width: 370px;
+        margin-bottom: 20px;
+    }
+    .Quick h1 {
+        text-align: center;
+    }
+    .Quick p {
+        text-align: start;
+    }
+    .contact h1, p {
+        margin: 10px 0px 0px 0px;
+        text-align: center;
+    }
+    h1.we {
+        text-align: center;
+        margin: 30px 0px;
+    }
+    section#organic h2 {
+        font-size: 24px; 
+    }
+    .Quick p {
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 425px) and (max-width: 768px){
+     
+    .main_text h1 {  
+        text-align: center;
+    }
+    .main_text p {  
+        text-align: center;
+    }
+    .main_text button { 
+        margin-left: 130px;
+    }
+    .card.mx-auto.m-4.tranding{
+        width: 20rem !important;
+    }
+
+    img.img-fluid.mx-auto.d-block.pb-3 { 
+        width: 370px;
+    }
+    img.img-fluid.mx-auto.d-block { 
+        width: 370px;
+        margin-bottom: 20px;
+    }
+    img.img-fluid.mx-auto.d-block.mains_product {
+        height: 282px;
+    }
+    img.img-fluid.mx-auto.d-block.organics {
+        height: 568px;
+    }
+     
+   
+    h1.we {
+        text-align: center;
+        margin: 30px 0px;
+    }
+    section#navber img {
+        width: 200px;
+    }
+    section#organic h2 {
+        font-size: 20px; 
+    }
+    .Quick h1,p {
+        text-align: center;
+    }
+    p.FREE {
+        text-align: left !important;
+    }
+    .contact h1 {
+        text-align: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    img.img-fluid.mx-auto.d-block.organics {
+        height: 454px;
+        width: 341px;
+    }
+    .card.mx-auto.m-4.tranding{
+        width: 14rem !important;
+    }
+    img.img-fluid.mx-auto.d-block.mains_product {
+        height: 300px;
+    }
+    section#navber img {
+        width: 200px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    
+    img.img-fluid.mx-auto.d-block.organics {
+        width: 100%;
+    }
+    .card.mx-auto.m-4.tranding{
+        width: 19rem !important;
+    }
+    img.img-fluid.mx-auto.d-block.mains_product {
+        height: 300px;
+    }
+    section#navber img {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    section#navber img {
+        width: 200px;
+    }
+}
